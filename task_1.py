@@ -37,3 +37,16 @@ class HashTable:
                     self.table[key_hash].pop(i)
                     return True
         return False
+
+if __name__ == "__main__":
+    H = HashTable(5)
+    H.insert("apple", 10)
+    H.insert("orange", 20)
+    H.insert("banana", 30)
+
+    print(H.get("apple"))   # Виведе: 10
+    print(H.get("orange"))  # Виведе: 20
+    print(H.get("banana"))  # Виведе: 30
+
+    H.delete("apple")
+    print(H.get("apple"))  # Виведе: None
