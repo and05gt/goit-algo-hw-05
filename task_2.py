@@ -35,4 +35,5 @@ if __name__ == "__main__":
     
     target4 = -1.5
     result4 = binary_search_upper_bound(data, target4)
-    print(f"Шукаємо {target4}: {result4}") 
+    print(f"Шукаємо {target4}: {result4}")
+     
